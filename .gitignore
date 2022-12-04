@@ -34,6 +34,11 @@ classes/
 # Visual Studio Code
 .vscode
 
-.metals
+# Metals
+.metals/
+.bloop/
+.ammonite/
+metals.sbt
+
 *$package.tasty
 *.tasty

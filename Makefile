@@ -1,8 +1,10 @@
 .PHONY: clean
 
-%: %.sc
-	scalac $< -explain
-	scala $@
+notarget:
+	@echo "Plz specify a make target"
+
+%: %.scala
+	scala-cli $< --watch
 
 clean:
-	rm *.tasty *.class
+	rm -r *.tasty *.class .scala-build

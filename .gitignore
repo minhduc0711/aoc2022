@@ -40,5 +40,8 @@ classes/
 .ammonite/
 metals.sbt
 
+# scala-cli
+.scala-build/
+
 *$package.tasty
 *.tasty

@@ -16,7 +16,7 @@ def find(text: String, step: Int) =
   cnt
 
 @main def main6() =
-  val filename = "input/day6.txt"
+  val filename = "input/day06.txt"
   val text = Source.fromFile(filename).mkString
 
   println("Part 1: " + find(text, 4))

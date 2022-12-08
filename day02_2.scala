@@ -16,8 +16,8 @@ def getMatchResult(oppChoice: String, outcome: String): Int =
     // we win
     case "Z" => (oppChoiceId + 1) % 3 + 1 + 6
 
-@main def day2_2() =
-  val filename = "input/day2.txt"
+@main def day02_2() =
+  val filename = "input/day02.txt"
 
   val text = Source.fromFile(filename).mkString
   val matches = text.split("\n")

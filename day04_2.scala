@@ -7,8 +7,8 @@ def parsePair(s: String) =
     .map(rangeArr => Range(rangeArr(0), rangeArr(1)).inclusive)
   rangePair
 
-@main def day4_2() =
-  val filename = "input/day4.txt"
+@main def day04_2() =
+  val filename = "input/day04.txt"
 
   val text = Source.fromFile(filename).mkString
   val pairs = text.split("\n").map(parsePair)

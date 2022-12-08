@@ -30,7 +30,7 @@ def parseInput(filename: String) =
 
 
 @main def main() =
-  val filename = "input/day5.txt"
+  val filename = "input/day05.txt"
   val (originalStacks, arrangements) = parseInput(filename)
 
   var stacks = originalStacks.map(_.clone)

@@ -26,7 +26,7 @@ def getScenicScoreSideways(i: Int, j: Int, grid: Array[Array[Int]]) =
   scoreLeft * scoreRight
 
 @main def main8 =
-  val filename = "input/day8.txt"
+  val filename = "input/day08.txt"
   var lines = Source.fromFile(filename).getLines().toList
 
   val numRows = lines(0).length

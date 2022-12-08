@@ -20,8 +20,8 @@ def getMatchResult(oppChoice: String, myChoice: String): Int =
     0
 
 
-@main def day2_1() =
-  val filename = "input/day2.txt"
+@main def day02_1() =
+  val filename = "input/day02.txt"
 
   val text = Source.fromFile(filename).mkString
   val matches = text.split("\n")

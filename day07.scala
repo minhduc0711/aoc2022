@@ -57,7 +57,7 @@ def getDirSize(tree: DirectoryTree, allDirSizes: ListBuffer[Int]): Int =
   totalSize
 
 @main def main7() =
-  val filename = "input/day7.txt"
+  val filename = "input/day07.txt"
   val rootDir = DirectoryTree(null)
 
   buildDirTreeFromInput(filename, rootDir)
